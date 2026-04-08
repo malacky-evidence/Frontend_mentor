@@ -1,0 +1,150 @@
+body{
+  font-family: "Figtree", sans-serif;
+}
+
+
+section{
+  background-color: hsl(47, 88%, 63%);
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  align-content: center;
+}
+
+.card{
+  margin-top: 120px;
+  justify-content: center;
+  background-color: black;
+  width: 400px;
+  height: 550px;
+  border: black solid 1px;
+  border-bottom: 8px solid hsl(0, 0%, 07%);
+  border-radius: 25px;
+}
+
+.div-card{
+  margin-left: 450px;
+  margin-right: 450px;
+  
+}
+
+
+
+.boarder{
+  margin-left: -7px;
+  margin-right: 20px;
+  margin-top: -8px;
+  margin-bottom: 20px;
+  height: 600px;
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  border: black solid 1px;
+
+  
+  
+  
+}
+
+.top-image{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.top-image img{
+  border-radius: 20px;
+}
+
+
+
+.learning{
+  background-color: hsl(47, 88%, 63%);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.learning p{
+  margin: 0;
+  padding-top: 2px;
+  color: hsl(0, 0%, 7%);
+}
+
+.learning:hover{
+  background-color: hsl(47, 78%, 59%);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.publish{
+  font-size: 18px;
+  color:hsl(0, 0%, 3%);
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 28px;
+  color: hsl(0, 0%, 7%);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+
+h1:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.description{
+  font-size: 18px;
+  color: hsl(0, 0%, 42%);
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.text{
+  font-size: 18px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+  section{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    margin-top: 120px;
+  }
+
+  .div-card{
+    margin: 20px;
+  }
+
+  .boarder{
+    width: 100%;
+    height: auto;
+  }
+  
+}
